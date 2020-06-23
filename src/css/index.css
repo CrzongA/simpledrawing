@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.canvas{
+    position: absolute;
+    right:0;
+    /*float: left;*/
+    width:80vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.toolsWrapper{
+    position: relative;
+    width: 20vw;
+    height: 100vh;
+    border:5px black solid;
+    float: left;
+    z-index: 1;
+}
+
+.modeChooser{
+    width: 25vw;
+    float: left;
+    position: absolute;
+    top: 25vh;
+    z-index: -1;
+}
+
+.cursorCoordinates{
+    margin: 5px;
+    width: 25vw;
+    float: left;
+    position: absolute;
+    z-index: -1;
+}
+
+.cButton{
+    position: relative;
+    border: 1px black solid;
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 5;
+}
+
+.cButton div{
+    display: block;
+    width:10px;
+    height:5px;
+    margin: auto;
+}
+
+.cButton:hover{
+    background: #71bbff;
+    color: white;
+}
+
+.clearPointsButton{
+    margin: 5px;
+    position: absolute;
+    top: 40vh;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+/*.konvajs-content{
+    z-index: 1;
+    float:left;
+}*/
